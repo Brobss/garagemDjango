@@ -1,8 +1,10 @@
 {
-  "python.analysis.extraPaths": [
-    "${workspaceFolder}/__pypackages__/3.10/lib"
-  ],
+  "python.analysis.extraPaths": ["${workspaceFolder}/__pypackages__/3.10/lib"],
   "python.autoComplete.extraPaths": [
     "${workspaceFolder}/__pypackages__/3.10/lib"
-  ]
+  ],
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  },
+  "python.formatting.provider": "none"
 }
