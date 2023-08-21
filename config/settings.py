@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     "corsheaders",
     "drf_spectacular",
+    "django_extensions",
     "rest_framework_simplejwt",
     "rest_framework",
     "garagem",
